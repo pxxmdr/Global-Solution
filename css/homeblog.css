@@ -1,0 +1,117 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    position: relative;
+    border: solid 2px lightsteelblue;
+    border-bottom: solid 4px lightsteelblue;
+    height: 200px;
+    width: 1866px;
+    margin-left: 15px;
+    margin-top: 10px;
+    
+}
+
+
+
+.golfinho1 {
+    position: absolute;
+    transform: scaleX(-1);
+    margin-left: 10px;
+    
+    
+    
+
+}
+
+.golfinho2 {
+    position: absolute;
+    padding-left: 1600px;
+    margin-top: -315px;
+    
+    
+}
+
+
+header h1{
+    font-size: 66px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: steelblue;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    margin-left: -50px;
+    list-style: none;
+    margin-top: -25px;
+    padding: 100px;
+
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: steelblue;
+}
+
+.body-img {
+    position: relative;
+    margin-top: 5px;
+    width: 1870px;
+    height: 1079px;
+    margin-left: 15px;
+    
+}
+
+.div-2024 {
+position: absolute;
+color: steelblue;
+border: solid 2px lightsteelblue;
+border-radius: 30px;
+background-color: white;
+height: 300px;
+width: 500px;
+margin-top: -779px;
+margin-left: 700px;
+}
+
+
+div h2{
+    font-size: 50px;
+    padding-top: 5px;
+    
+}
+
+div p{
+    font-size: 50px;
+    padding-top: 1px;
+    padding-left: 10px;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.button-blog {
+    position: absolute;
+    margin-left: -1090px;
+    margin-top: 699px;
+    width: 300px;
+    height: 79px;
+    font-size: 35px;
+    color: steelblue;
+    background-color: white;
+    border: solid 2px lightsteelblue;
+    border-radius: 30px;
+    
+}
