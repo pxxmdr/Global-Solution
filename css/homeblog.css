@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     
+    
 }
 
 header{
@@ -14,26 +15,7 @@ header{
     width: 1866px;
     margin-left: 15px;
     margin-top: 10px;
-    
-}
-
-
-
-.golfinho1 {
-    position: absolute;
-    transform: scaleX(-1);
-    margin-left: 10px;
-    
-    
-    
-
-}
-
-.golfinho2 {
-    position: absolute;
-    padding-left: 1600px;
-    margin-top: -315px;
-    
+    background-color: aliceblue;
     
 }
 
@@ -46,29 +28,68 @@ header h1{
     color: steelblue;
 }
 
+header img{
+    margin-top: 16px;
+    
+}
+
+.instagram {
+    height: 30px;
+    margin-left: 870px;
+    margin-right: 5px; 
+}
+
+.instagram:hover {
+    background-color: aliceblue;
+}
+
+.twitter {
+    height: 30px;
+    margin-left: 10px; 
+    margin-right: 5px; 
+}
+
+.twitter:hover {
+    background-color: aliceblue;
+}
+
+.facebook {
+    height: 30px;
+    margin-left: 10px; 
+}
+
+.facebook:hover {
+    background-color: aliceblue;
+}
+
+header img:hover{
+    color: blue;
+    cursor: point;
+}
+
 ul {
     display: flex;
     justify-content: center;
-    margin-left: -50px;
+    margin-left: -20px;
     list-style: none;
-    margin-top: -25px;
+    margin-top: -79px;
     padding: 100px;
 
 }
 
 a {
-    display: flex;
-    justify-content: center;
     text-decoration: none;
     font-size: 20px;
     color: steelblue;
 }
 
+
+
 .body-img {
     position: relative;
     margin-top: 5px;
     width: 1870px;
-    height: 1079px;
+    height: 100%;
     margin-left: 15px;
     
 }
@@ -77,8 +98,7 @@ a {
 position: absolute;
 color: steelblue;
 border: solid 2px lightsteelblue;
-border-radius: 30px;
-background-color: white;
+background-color: aliceblue;
 height: 300px;
 width: 500px;
 margin-top: -779px;
@@ -110,8 +130,14 @@ h2 {
     height: 79px;
     font-size: 35px;
     color: steelblue;
-    background-color: white;
+    background-color: aliceblue;
     border: solid 2px lightsteelblue;
-    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
     
+}
+
+.button-blog:hover {
+    background-color: rgb(192, 203, 214);
+
 }
