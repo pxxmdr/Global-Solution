@@ -17,3 +17,84 @@ body {
         margin: 0;
         padding: 0;
     }
+
+header {
+    background-image: url(../img/background-header.jpg);
+    width: 1500px;
+    height: 250px;
+    background-color:aliceblue;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+header h1{
+    font-size: 66px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+header span{
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+header P {
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.header-p2 {
+    font-size: 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.arrow-down {
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 925px;
+    cursor: pointer;
+    
+}
+
+.div-ideia {
+    margin-top: 20px;
+    margin-left: 350px;
+    width: 1200px;
+    height: 470px;
+    background-color: rgb(200, 233, 233);
+    
+}
+
+div h2{
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/background-div-ideia.jpg);
+    background-position: 70%;
+    height: 75px;
+    font-size: 36px;
+    color: aliceblue;
+    padding-top: 30px;
+    
+}
+
+div p {
+    margin-top: 10px;
+    margin-left: 25px;
+    color: #003366;
+}
+
+.golfinho {
+    margin-left: 930px;
+    margin-top: -500px;
+}
