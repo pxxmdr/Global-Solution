@@ -3,41 +3,53 @@
     font-weight: 100;
     margin: 0;
     padding: 0;
-    
-    
+
+
 }
 
 header{
-    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
     border: solid 2px lightsteelblue;
     border-bottom: solid 4px lightsteelblue;
     height: 200px;
-    width: 1866px;
+    /* width: 1866px; */
     margin-left: 15px;
     margin-top: 10px;
+    margin-right: 15px;
     background-color: aliceblue;
-    
+
 }
 
 
 header h1{
     font-size: 66px;
-    margin-top: 20px;
+    /* margin-top: 500px; */
     display: flex;
     justify-content: center;
     color: steelblue;
 }
 
-header img{
+/* header img{
     margin-top: 16px;
-    
-}
+
+} */
 
 .instagram {
     height: 30px;
-    margin-left: 870px;
-    margin-right: 5px; 
+    /* margin-left: 870px;
+    margin-right: 5px; */
 }
+
+
+/* @media(max-width: 1199px){
+    .instagram{
+        margin-left: 520px;
+    }
+} */
 
 .instagram:hover {
     background-color: aliceblue;
@@ -45,8 +57,9 @@ header img{
 
 .twitter {
     height: 30px;
-    margin-left: 10px; 
-    margin-right: 5px; 
+    margin-left: 5px;
+    /* margin-left: 10px;
+    margin-right: 5px; */
 }
 
 .twitter:hover {
@@ -55,7 +68,7 @@ header img{
 
 .facebook {
     height: 30px;
-    margin-left: 10px; 
+    /* margin-left: 10px; */
 }
 
 .facebook:hover {
@@ -70,10 +83,10 @@ header img:hover{
 ul {
     display: flex;
     justify-content: center;
-    margin-left: -20px;
+    /* margin-left: -20px; */
     list-style: none;
-    margin-top: -79px;
-    padding: 100px;
+    /* margin-top: -79px; */
+    /* padding: 100px; */
 
 }
 
@@ -85,33 +98,48 @@ a {
 
 
 
-.body-img {
+/* .body-img {
     position: relative;
     margin-top: 5px;
-    width: 1870px;
-    height: 100%;
+    /* width: 1870px;  */
+    /* height: 100%;
     margin-left: 15px;
-    
+
+} */
+
+.body-img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    background-image: url(../img/background-home1.jpg);
+    height: 100vh;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .div-2024 {
-position: absolute;
 color: steelblue;
 border: solid 2px lightsteelblue;
 background-color: aliceblue;
 height: 300px;
 width: 500px;
-margin-top: -779px;
-margin-left: 700px;
+margin: 0 auto;
+
+@media(max-width: 540px){
+    width: 70%;
+}
+
+/* margin-left: 700px; */
 }
 
 
-div h2{
+/* div h2{
     font-size: 50px;
     padding-top: 5px;
-    
-    
-}
+} */
 
 div p{
     font-size: 50px;
@@ -121,12 +149,13 @@ div p{
 h2 {
     display: flex;
     justify-content: center;
+    font-size: 50px;
+    padding-top: 5px;
 }
 
 .button-blog {
-    position: absolute;
-    margin-left: -1090px;
-    margin-top: 699px;
+
+
     width: 300px;
     height: 79px;
     font-size: 35px;
@@ -135,7 +164,7 @@ h2 {
     border: solid 2px lightsteelblue;
     transition: background-color 0.3s ease;
     cursor: pointer;
-    
+
 }
 
 .button-blog:hover {

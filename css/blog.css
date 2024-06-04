@@ -1,6 +1,7 @@
 body {
     margin: 0;
-        height: 100vh;
+        height: auto;
+        width: 100%;
         background: linear-gradient(
             to bottom,#ffffff,#e6f2ff,#cce6ff,
             #b3d9ff,#99ccff,#80bfff,#66b3ff,
@@ -9,6 +10,7 @@ body {
             #003366,#00264d,#001a33,#000d1a,
             #000000
         );
+        background-repeat: no-repeat;
     }
 
     *{
@@ -19,59 +21,76 @@ body {
     }
 
 header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin:  0 auto;
     background-image: url(../img/background-header.jpg);
-    width: 1500px;
+    /* background-repeat: no-repeat; */
+    width: 70%;
     height: 250px;
     background-color:aliceblue;
-    margin-top: 50px;
-    margin-left: 200px;
+    margin-top: 30px;
+    /* margin-left: 200px; */
 }
 
 header h1{
     font-size: 66px;
-    padding-top: 30px;
-    display: flex;
-    justify-content: center;
+    /* padding-top: 1px; */
+    /* display: flex;
+    justify-content: center; */
     color: aliceblue;
 }
 
 header span{
     font-size: 20px;
     margin-top: 20px;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     color: aliceblue;
 }
 
 header P {
     font-size: 20px;
     margin-top: 20px;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     color: aliceblue;
 }
 
 .header-p2 {
     font-size: 15px;
     margin-top: 20px;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     color: aliceblue;
+}
+
+.div-arrow {
+    display:flex ;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 .arrow-down {
     height: 30px;
     margin-top: 15px;
-    margin-left: 925px;
+    /* margin-left: 925px; */
     cursor: pointer;
     
 }
 
 .div-ideia {
-    margin-top: 20px;
-    margin-left: 350px;
-    width: 1200px;
-    height: 470px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 70px;
+    /* margin-left: 250px; */
+    width: 60%;
+    height: 620px;
     background-color: rgb(200, 233, 233);
     
 }
@@ -81,20 +100,64 @@ div h2{
     justify-content: center;
     background-image: url(../img/background-div-ideia.jpg);
     background-position: 70%;
-    height: 75px;
+    width: 100%;
+    height: 90px;
     font-size: 36px;
     color: aliceblue;
     padding-top: 30px;
     
 }
 
+
+
 div p {
+    text-indent: 25px;
     margin-top: 10px;
-    margin-left: 25px;
+    /* margin-left: 25px; */
     color: #003366;
 }
 
+
 .golfinho {
-    margin-left: 930px;
-    margin-top: -500px;
+    /* margin-left: 930px; */
+    /* margin-top: -100px; */
+    width: 250px;
+    height: 200px;
+    
+}
+
+h3{
+    font-weight: bold;
+    text-indent: 25px;
+}
+
+.inf-importantes{
+    font-size: 30px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.div-article1{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 30px;
+}
+
+.article-1{
+    background-color: rgb(200, 233, 233);
+    border: 1px solid black;
+}
+
+
+.gif-petroleo{
+    width: 540px;
+    height: 303px;
+}
+
+.article-2{
+    background-color: rgb(200, 233, 233);
+    border: 1px solid black;
 }
