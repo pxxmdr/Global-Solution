@@ -141,4 +141,77 @@ background-color: aliceblue;
 height: 300px;
 width: 500px;
 margin: 0 auto;
+
+
+@media(max-width: 540px){
+    width: 70%;
 }
+ 
+
+
+}
+ 
+ 
+div p{
+    font-size: 50px;
+    padding-top: 1px;
+    padding-left: 10px;
+ 
+ 
+ 
+    @media (max-width: 475px){
+        font-size: 40px;
+        padding-top: 20px;
+    }
+}
+ 
+@media (max-width: 419px){
+    div p{
+        font-size: 40px;
+        padding-top: 10px;
+    }
+}
+ 
+@media (max-width: 366px){
+    div p{
+        font-size: 35px;
+        padding-top: 20px;
+    }
+}
+ 
+   
+ 
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 5px;
+}
+ 
+.button-blog {
+ 
+ 
+    width: 300px;
+    height: 79px;
+    font-size: 35px;
+    color: steelblue;
+    background-color: aliceblue;
+    border: solid 2px lightsteelblue;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+ 
+}
+ 
+@media (max-width: 366px){
+    .button-blog{
+        width: 230px;
+        height: 65px;
+        font-size: 30px;
+    }
+}
+ 
+.button-blog:hover {
+    background-color: rgb(192, 203, 214);
+ 
+}
+ 
