@@ -3,10 +3,10 @@
     font-weight: 100;
     margin: 0;
     padding: 0;
-
-
+ 
+ 
 }
-
+ 
 header{
     display: flex;
     align-items: center;
@@ -22,8 +22,6 @@ header{
     margin-right: 15px;
     background-color: aliceblue;
 }
-
-
 
 header h1{
     font-size: 66px;
@@ -49,51 +47,51 @@ header h1{
 
 /* header img{
     margin-top: 16px;
-
+ 
 } */
-
+ 
 .instagram {
     height: 30px;
     /* margin-left: 870px;
     margin-right: 5px; */
 }
-
-
+ 
+ 
 /* @media(max-width: 1199px){
     .instagram{
         margin-left: 520px;
     }
 } */
-
+ 
 .instagram:hover {
     background-color: aliceblue;
 }
-
+ 
 .twitter {
     height: 30px;
     margin-left: 5px;
     /* margin-left: 10px;
     margin-right: 5px; */
 }
-
+ 
 .twitter:hover {
     background-color: aliceblue;
 }
-
+ 
 .facebook {
     height: 30px;
     /* margin-left: 10px; */
 }
-
+ 
 .facebook:hover {
     background-color: aliceblue;
 }
-
+ 
 header img:hover{
     color: blue;
     cursor: pointer;
 }
-
+ 
 ul {
     display: flex;
     justify-content: center;
@@ -101,26 +99,26 @@ ul {
     list-style: none;
     /* margin-top: -79px; */
     /* padding: 100px; */
-
+ 
 }
-
+ 
 a {
     text-decoration: none;
     font-size: 20px;
     color: steelblue;
 }
-
-
-
+ 
+ 
+ 
 /* .body-img {
     position: relative;
     margin-top: 5px;
     /* width: 1870px;  */
     /* height: 100%;
     margin-left: 15px;
-
+ 
 } */
-
+ 
 .body-img {
     display: flex;
     align-items: center;
@@ -133,7 +131,7 @@ a {
     margin-left: 15px;
     margin-right: 15px;
 }
-
+ 
 .div-2024 {
 color: steelblue;
 border: solid 2px lightsteelblue;
@@ -142,19 +140,16 @@ height: 300px;
 width: 500px;
 margin: 0 auto;
 
+
 @media(max-width: 540px){
     width: 70%;
 }
+ 
 
-/* margin-left: 700px; */
+
 }
-
-
-/* div h2{
-    font-size: 50px;
-    padding-top: 5px;
-} */
-
+ 
+ 
 div p{
     font-size: 50px;
     padding-top: 1px;
@@ -162,11 +157,17 @@ div p{
 
 
 
+
+
+ 
+ 
+
     @media (max-width: 475px){
         font-size: 40px;
         padding-top: 20px;
     }
 }
+
 
 @media (max-width: 419px){
     div p{
@@ -182,18 +183,14 @@ div p{
     }
 }
 
-    
-
 h2 {
     display: flex;
     justify-content: center;
     font-size: 50px;
     padding-top: 5px;
 }
-
+ 
 .button-blog {
-
-
     width: 300px;
     height: 79px;
     font-size: 35px;
@@ -202,8 +199,10 @@ h2 {
     border: solid 2px lightsteelblue;
     transition: background-color 0.3s ease;
     cursor: pointer;
-
+ 
 }
+
+
 
 @media (max-width: 366px){
     .button-blog{
@@ -213,7 +212,10 @@ h2 {
     }
 }
 
+
+
 .button-blog:hover {
     background-color: rgb(192, 203, 214);
-
+ 
 }
+ 
